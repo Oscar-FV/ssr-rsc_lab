@@ -104,6 +104,6 @@ export async function getPokemonByName(nameOrId, opts = {}) {
         data.sprites?.other?.["official-artwork"]?.front_default ||
         null,
     },
-    raw: data, // por si necesitas todo el objeto original
+    raw: data,
   };
 }
